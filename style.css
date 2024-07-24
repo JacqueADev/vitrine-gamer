@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+
+:root{
+    --font-destaque: "Shadows Into Light", cursive;
+    --font-titulo-maior: "Pixelify Sans", sans-serif;
+    --font-maior: 5rem;
+    --font-grande: 2rem;
+    --font-normal: .938rem;
+    --font-pequena: .813rem;
+    --cor-pc-1: #22AAA1;
+    --cor-pc-2: #3354E7;
+    --cor-pc-3: #DF5827;
+    --branco: #FFFFFF;
+    --preto: #18171a;
+    --z-index-1: 10;
+    --z-index-fixo: 100;
+    
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-destaque);
+    font-size: var(--font-normal);
+    color: var(--branco);
+    list-style: none;
+    text-decoration: none;
+ }   
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--cor-pc-1);
+    z-index: var(--z-index-fixo)
+}
